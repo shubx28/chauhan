@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login Page</h1>
+    <form action="/login" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Login">
+    </form>
+    <h1>Register Page</h1>
+    <form action="/register" method="post">
+        <label for="new_username">Username:</label>
+        <input type="text" id="new_username" name="new_username"><br><br>
+        <label for="new_password">Password:</label>
+        <input type="password" id="new_password" name="new_password"><br><br>
+        <input type="submit" value="Register">
+    </form>
+    <h1>Forgot Password Page</h1>
+    <form action="/forgot-password" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Reset Password">
+    </form>
+    <h1>Change Password Page</h1>
+    <form action="/change-password" method="post">
+        <label for="current_password">Current Password:</label>
+        <input type="password" id="current_password" name="current_password"><br><br>
+        <label for="new_password">New Password:</label>
+        <input type="password" id="new_password" name="new_password"><br><br>
+        <input type="submit" value="Change Password">
+    </form>
+</body>
+</html>
